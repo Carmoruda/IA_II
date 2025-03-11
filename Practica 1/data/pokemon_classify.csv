@@ -1,0 +1,5 @@
+id,against_bug,against_dark,against_dragon,against_electric,against_fairy,against_fight,against_fire,against_flying,against_ghost,against_grass,against_ground,against_ice,against_normal,against_poison,against_psychic,against_rock,against_steel,against_water,name,type1,type2
+24,1.0,1.0,1.0,0.5,1.0,1.0,1.0,0.5,1.0,1.0,2.0,1.0,1.0,1.0,1.0,1.0,0.5,1.0,Pikachu,electric,-
+79,2.0,2.0,1.0,2.0,1.0,0.5,0.5,1.0,2.0,2.0,1.0,0.5,1.0,1.0,0.5,1.0,0.5,0.5,Slowbro,water,psychic
+143,0.5,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,0.5,0.0,1.0,1.0,1.0,1.0,4.0,2.0,1.0,Articuno,ice,flying
+145,0.25,1.0,1.0,2.0,0.5,0.5,0.5,1.0,1.0,0.25,0.0,1.0,1.0,1.0,1.0,4.0,0.5,2.0,Moltres,fire,flying
