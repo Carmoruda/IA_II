@@ -19,7 +19,7 @@ strict digraph "Arquitectura CNN" {
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 32, 64, 64) </TD>
+                        <TD COLSPAN="2">(1, 64, 64, 64) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		2 [label=<
@@ -28,11 +28,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">ReLU<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 32, 64, 64) </TD>
+                        <TD COLSPAN="2">(1, 64, 64, 64) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 32, 64, 64) </TD>
+                        <TD COLSPAN="2">(1, 64, 64, 64) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		3 [label=<
@@ -41,11 +41,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">MaxPool2d<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 32, 64, 64) </TD>
+                        <TD COLSPAN="2">(1, 64, 64, 64) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 32, 32, 32) </TD>
+                        <TD COLSPAN="2">(1, 64, 32, 32) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		4 [label=<
@@ -54,11 +54,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">Conv2d<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 32, 32, 32) </TD>
+                        <TD COLSPAN="2">(1, 64, 32, 32) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 64, 32, 32) </TD>
+                        <TD COLSPAN="2">(1, 128, 32, 32) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		5 [label=<
@@ -67,11 +67,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">ReLU<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 64, 32, 32) </TD>
+                        <TD COLSPAN="2">(1, 128, 32, 32) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 64, 32, 32) </TD>
+                        <TD COLSPAN="2">(1, 128, 32, 32) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		6 [label=<
@@ -80,11 +80,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">MaxPool2d<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 64, 32, 32) </TD>
+                        <TD COLSPAN="2">(1, 128, 32, 32) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 64, 16, 16) </TD>
+                        <TD COLSPAN="2">(1, 128, 16, 16) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		7 [label=<
@@ -93,11 +93,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">Conv2d<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 64, 16, 16) </TD>
+                        <TD COLSPAN="2">(1, 128, 16, 16) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 128, 16, 16) </TD>
+                        <TD COLSPAN="2">(1, 256, 16, 16) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		8 [label=<
@@ -106,11 +106,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">ReLU<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 128, 16, 16) </TD>
+                        <TD COLSPAN="2">(1, 256, 16, 16) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 128, 16, 16) </TD>
+                        <TD COLSPAN="2">(1, 256, 16, 16) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		9 [label=<
@@ -119,11 +119,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">MaxPool2d<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 128, 16, 16) </TD>
+                        <TD COLSPAN="2">(1, 256, 16, 16) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 128, 8, 8) </TD>
+                        <TD COLSPAN="2">(1, 256, 8, 8) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		10 [label=<
@@ -132,11 +132,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">Flatten<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 128, 8, 8) </TD>
+                        <TD COLSPAN="2">(1, 256, 8, 8) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 8192) </TD>
+                        <TD COLSPAN="2">(1, 16384) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		11 [label=<
@@ -145,11 +145,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">Linear<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 8192) </TD>
+                        <TD COLSPAN="2">(1, 16384) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 256) </TD>
+                        <TD COLSPAN="2">(1, 512) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		12 [label=<
@@ -158,11 +158,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">ReLU<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 256) </TD>
+                        <TD COLSPAN="2">(1, 512) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 256) </TD>
+                        <TD COLSPAN="2">(1, 512) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		13 [label=<
@@ -171,11 +171,11 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">Dropout<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 256) </TD>
+                        <TD COLSPAN="2">(1, 512) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
-                        <TD COLSPAN="2">(1, 256) </TD>
+                        <TD COLSPAN="2">(1, 512) </TD>
                     </TR>
                     </TABLE>> fillcolor=darkseagreen1]
 		14 [label=<
@@ -184,7 +184,7 @@ strict digraph "Arquitectura CNN" {
                     <TR>
                         <TD ROWSPAN="2">Linear<BR/>depth:2</TD>
                         <TD COLSPAN="2">input:</TD>
-                        <TD COLSPAN="2">(1, 256) </TD>
+                        <TD COLSPAN="2">(1, 512) </TD>
                     </TR>
                     <TR>
                         <TD COLSPAN="2">output: </TD>
