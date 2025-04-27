@@ -1,26 +1,24 @@
 ---------------------------------------------------------------------------------
 Modelo 1 - Entrenamiento y validación
 ---------------------------------------------------------------------------------
-Época [01/30] Pérdida entrenamiento: 1.5950, Accuracy: 0.5991 | Pérdida validación: 0.2820, Accuracy: 0.9164
-Modelo guardado. val_loss = 0.2820
-Época [02/30] Pérdida entrenamiento: 0.3222, Accuracy: 0.9096 | Pérdida validación: 0.2321, Accuracy: 0.9447
-Modelo guardado. val_loss = 0.2321
-Época [03/30] Pérdida entrenamiento: 0.2186, Accuracy: 0.9461 | Pérdida validación: 0.1193, Accuracy: 0.9656
-Modelo guardado. val_loss = 0.1193
+Época [01/30] Pérdida entrenamiento: 1.9970, Accuracy: 0.5057 | Pérdida validación: 0.2948, Accuracy: 0.9095
+Modelo guardado. val_loss = 0.2948
+Época [02/30] Pérdida entrenamiento: 0.3580, Accuracy: 0.8887 | Pérdida validación: 0.1448, Accuracy: 0.9513
+Modelo guardado. val_loss = 0.1448
 Criterio de early stopping alcanzado (media_perdida_validacion <= 0.2). Detenemos el entrenamiento.
 ---------------------------------------------------------------------------------
 Modelo 2 - Entrenamiento y validación
 ---------------------------------------------------------------------------------
-Época [01/30] Pérdida entrenamiento: 1.3308, Accuracy: 0.6688 | Pérdida validación: 0.4216, Accuracy: 0.9040
-Modelo guardado. val_loss = 0.4216
-Época [02/30] Pérdida entrenamiento: 0.2183, Accuracy: 0.9436 | Pérdida validación: 0.1266, Accuracy: 0.9624
-Modelo guardado. val_loss = 0.1266
+Época [01/30] Pérdida entrenamiento: 1.3045, Accuracy: 0.6760 | Pérdida validación: 0.3320, Accuracy: 0.8907
+Modelo guardado. val_loss = 0.3320
+Época [02/30] Pérdida entrenamiento: 0.2265, Accuracy: 0.9417 | Pérdida validación: 0.1306, Accuracy: 0.9693
+Modelo guardado. val_loss = 0.1306
 Criterio de early stopping alcanzado (media_perdida_validacion <= 0.2). Detenemos el entrenamiento.
 ---------------------------------------------------------------------------------
 Modelo 3 - Entrenamiento y validación
 ---------------------------------------------------------------------------------
-Época [01/30] Pérdida entrenamiento: 1.7571, Accuracy: 0.5509 | Pérdida validación: 0.3490, Accuracy: 0.9008
-Modelo guardado. val_loss = 0.3490
-Época [02/30] Pérdida entrenamiento: 0.3106, Accuracy: 0.9053 | Pérdida validación: 0.1440, Accuracy: 0.9638
-Modelo guardado. val_loss = 0.1440
+Época [01/30] Pérdida entrenamiento: 1.8071, Accuracy: 0.5334 | Pérdida validación: 0.3432, Accuracy: 0.8929
+Modelo guardado. val_loss = 0.3432
+Época [02/30] Pérdida entrenamiento: 0.3263, Accuracy: 0.8978 | Pérdida validación: 0.1687, Accuracy: 0.9492
+Modelo guardado. val_loss = 0.1687
 Criterio de early stopping alcanzado (media_perdida_validacion <= 0.2). Detenemos el entrenamiento.
