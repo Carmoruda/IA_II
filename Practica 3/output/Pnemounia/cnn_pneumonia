@@ -1,0 +1,32 @@
+// CNN para clasificación de neumonía
+digraph {
+	Input [label="Input
+(1x100x100)" shape=box]
+	Conv1 [label="Conv2D
+(1→8)" shape=box]
+	Pool1 [label="MaxPool2D
+(2x2)" shape=box]
+	Conv2 [label="Conv2D
+(8→16)" shape=box]
+	Pool2 [label="MaxPool2D
+(2x2)" shape=box]
+	Conv3 [label="Conv2D
+(16→32)" shape=box]
+	Pool3 [label="MaxPool2D
+(2x2)" shape=box]
+	Flatten [label="Flatten
+(32x12x12)" shape=box]
+	FC1 [label="Linear
+(4608→128) + ReLU" shape=box]
+	FC2 [label="Linear
+(128→N clases)" shape=box]
+	Input -> Conv1
+	Conv1 -> Pool1
+	Pool1 -> Conv2
+	Conv2 -> Pool2
+	Pool2 -> Conv3
+	Conv3 -> Pool3
+	Pool3 -> Flatten
+	Flatten -> FC1
+	FC1 -> FC2
+}
