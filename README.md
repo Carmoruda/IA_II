@@ -67,7 +67,7 @@ Todas las prácticas se han desarrollado en Python utilizando `NumPy`, `PyTorch`
 │   │   ├── comparación_mejores_valores_rango_persona_2_pokemon.png
 │   │   └── comparación_mejores_valores.png
 │   └── README.md
-├── 📁 LAB02_PMC
+├── 📁 Practica 2
 │   ├── L2P1-Perceptron.ipynb
 │   ├── L2P2-MLP.ipynb
 │   ├── L2P3-MLP_GoT.ipynb
@@ -84,7 +84,7 @@ Todas las prácticas se han desarrollado en Python utilizando `NumPy`, `PyTorch`
 │   │   └── red_neuronal
 │   └── utils
 │       └── grafica.py
-├── 📁 LAB03_DL
+├── 📁 Practica 3
 │   ├── L3P1-FandV.ipynb
 │   ├── L3P2-Pneumonia.ipynb
 │   ├── LAB03 DL 24-25.pdf
@@ -97,7 +97,7 @@ Todas las prácticas se han desarrollado en Python utilizando `NumPy`, `PyTorch`
 │   └── output
 │       ├── FandV
 │       └── Pneumonia
-├── 📁 LAB04_AG
+├── 📁 Practica 4
 │   ├── L4P1-Frase.ipynb
 │   ├── L4P2-Frase_Elite.ipynb
 │   └── LAB04 AG 24-25.pdf
